@@ -1,0 +1,162 @@
+@media only screen and (max-width: 999px) {
+
+	/* header start */
+
+	#headerdiv {
+		height: 100%;
+		min-width: 0;
+	}
+
+	#innerheader {
+		height: 100%;
+	}
+
+	#navbardiv {
+		min-width: 0;
+	}
+
+	#navbardiv ul {
+		min-width: 0;
+	}
+
+	#navbardiv li {
+		transform: skew(0deg);
+	}
+
+	/* header end */
+
+
+	/* main body start */
+
+	#maindiv {
+		width: 100%;
+		min-width: 0;
+		min-height: 400px;
+		border-width: 0px 0px 0px;
+	}
+
+	#pictureshowdiv {
+		width: 0;
+		height: 0;
+		overflow: hidden;
+		border-width: 0px 0px 0px;
+	}
+
+	#contentboxdiv {
+		width: 100%;
+		min-width: 0;
+	}
+
+	div.contentinside {
+		width: 90%;
+		min-width: 0;
+		min-height: 0;
+		height: 100%;
+		margin: 2% auto;
+		padding: 15px;
+		box-shadow: inset 0 0 2px #777777;
+	}
+	
+	div.contentinsidefacilities {
+		width: 90%;
+		min-width: 0;
+		height: 100%;
+		margin: 2% auto;
+		box-shadow: inset 0 0 2px #777777;
+		/* makes floats strech the div */
+		overflow: hidden;
+	}
+	div.contentfloatright {
+		width: 150px;
+		height: 150px;
+	}
+
+	div.contentfloatright img {
+		height: 150px;
+	}
+
+	div.contentfloatleft {
+		width: 150px;
+		height: 150px;
+	}
+
+	div.contentfloatleft img {
+		height: 150px;
+	}
+
+	.memfloats1 {
+		display: block;
+		width: 90%;
+		height: 100%;
+		min-height: 0;
+		margin: 5% auto;
+		padding: 2%;
+		overflow: hidden;
+	}
+
+	.memfloats2 {
+		display: block;
+		vertical-align: middle;
+		width: 90%;
+		height: 100%;
+		min-height: 0;
+		margin: 5% auto;
+		padding: 2%;
+		overflow: hidden;
+	}
+
+	.memfloats3 {
+		display: block;
+		vertical-align: middle;
+		width: 90%;
+		height: 100%;
+		min-height: 0;
+		margin: 5% auto;
+		padding: 2%;
+		overflow: hidden;
+	}
+
+	.bottomalign {
+		position: relative;
+		padding-top: 5%;
+		bottom: 0;
+	}
+	/* main body end */
+
+
+	/* footer start */
+
+	#footerdiv {
+		min-width: 0;
+	}
+
+	#footerinnerdiv {
+		position: relative;
+		margin: auto;
+		padding: 5%;
+	}
+
+	.footerfloats1 {
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+
+	.footerfloats2 {
+		position: relative;
+		width: auto;
+		height: 100%;
+		padding: 2%;
+	}
+
+	/* footer end */
+
+	/*font classes start */
+
+	h1.contentboxheader {
+		transform: rotate(0deg);
+		text-indent: 0;
+		padding: 30px;
+	}
+
+}
